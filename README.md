@@ -1,4 +1,4 @@
-# my-agent-skills
+# agent-skills
 
 个人 Agent Skills 合集，兼容 Cursor、Claude Code、Codex、OpenCode、DSH 等支持 [Agent Skills](https://agentskills.io) 的 coding agent。
 
@@ -8,19 +8,19 @@
 
 ```bash
 # 全局：装到本机已检测到的 agent（推荐）
-npx skills add wozien/my-skills -g
+npx skills add wozien/agent-skills -g
 
 # 全局：本仓库全部 skill，装到 CLI 支持的全部 agent
-npx skills add wozien/my-skills -g --all
+npx skills add wozien/agent-skills -g --all
 
 # 只装某一个
-npx skills add wozien/my-skills --skill create-nextjs-spa -g -y
+npx skills add wozien/agent-skills --skill create-nextjs-spa -g -y
 
 # 指定若干主流 agent
-npx skills add wozien/my-skills -g -a cursor -a claude-code -a codex -a opencode
+npx skills add wozien/agent-skills -g -a cursor -a claude-code -a codex -a opencode
 ```
 
-列出仓库里的 skills：`npx skills add wozien/my-skills --list`。
+列出仓库里的 skills：`npx skills add wozien/agent-skills --list`。
 
 ## 已有 skills
 
