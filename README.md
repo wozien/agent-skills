@@ -27,3 +27,4 @@ npx skills add wozien/my-skills -g -a cursor -a claude-code -a codex -a opencode
 | Skill                                                  | 简述                                                                              |
 | ------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | [create-nextjs-spa](skills/create-nextjs-spa/SKILL.md) | Next.js 前后端分离起步：客户端 SPA、shadcn/ui、Route Handler REST、Drizzle + Neon |
+| [ui-design-prompts](skills/ui-design-prompts/SKILL.md) | 33 套网站 UI 设计风格（中文 prompt）；按适用/避免选型后原文执行 |
